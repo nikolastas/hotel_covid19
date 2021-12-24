@@ -4,6 +4,7 @@
 The project was about creating a tracking system for hotel costumers who have been in contact with a confirmed COVID-19 case. 
 
 Each costumer is soppused to have a NFC-id tag when entering different location of the hotel. 
+Also there is a limit to each costumer access rights depending on location staying and the services registered, which are declared uppon arival.
 
 You can see the basic er diagram , in the er.png file available.
 
