@@ -1,13 +1,13 @@
-##Authors:Nikolas Tasiopoulos & Andreas Evaggelatos
+## Authors:Nikolas Tasiopoulos & Andreas Evaggelatos
 # This was project for the 6th semaster of our ECE Studies in NTUA
-
+---
 The project was about creating a tracking system for hotel costumers who have been in contact with a confirmed COVID-19 case. 
 
 Each costumer is soppused to have a NFC-id tag when entering different location of the hotel. 
 
 You can see the basic er diagram , in the er.png file available.
 
-
+---
 How to make it work:
 
 > We work with mysql. You can make changes to your database but please make charges to the config files also.
