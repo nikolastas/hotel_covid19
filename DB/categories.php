@@ -1,7 +1,7 @@
 <?php
 include ('credentials/credential.php');
-
-$sql = "SELECT SUM(amount) AS sum_amount,get_service.service_id, services.service_description FROM get_service,services WHERE services.service_id=get_service.service_id GROUP BY  service_id ASC ";
+// GROUP BY SINCE MYSQL8.0.13 HAS BEEN REMOVED SO WE ARE USING ORDER BY 
+$sql = "SELECT SUM(amount) AS sum_amount,get_service.service_id, services.service_description FROM get_service,services WHERE services.service_id=get_service.service_id GROUP BY service_id ORDER BY sum_amount ASC";
 $result = mysqli_query($conn,$sql);
 $service_sales = mysqli_fetch_all($result,MYSQLI_ASSOC);
 
